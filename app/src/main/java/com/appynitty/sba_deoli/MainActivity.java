@@ -1,10 +1,9 @@
 package com.appynitty.sba_deoli;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import com.appynitty.sba_deoli.BuildConfig;
 import com.appynitty.swachbharatabhiyanlibrary.activity.SplashScreenActivity;
 import com.appynitty.swachbharatabhiyanlibrary.utils.AUtils;
 
