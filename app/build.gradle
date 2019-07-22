@@ -4,10 +4,10 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.appynitty.sba_deoli"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 28
-        versionCode 11
-        versionName "6.0"
+        versionCode 13
+        versionName "8.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -20,6 +20,8 @@ android {
     packagingOptions {
         exclude 'META-INF/proguard/androidx-annotations.pro'
     }
+
+    buildToolsVersion = '28.0.3'
 }
 
 repositories {
@@ -31,6 +33,8 @@ repositories {
 }
 
 dependencies {
+    def room_version = "2.1.0"
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
@@ -65,4 +69,8 @@ dependencies {
 
     /** QR code scanner */
     implementation('me.dm7.barcodescanner:zbar:1.9.8')
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
 }
