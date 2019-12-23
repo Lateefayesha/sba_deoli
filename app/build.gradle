@@ -6,8 +6,8 @@ android {
         applicationId "com.appynitty.sba_deoli"
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 21
-        versionName "10.1"
+        versionCode 22
+        versionName "11.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -51,7 +51,7 @@ dependencies {
 
     /* Libraries for WEB APIs*/
     implementation (name: 'retrofitconnectionlibrary-release', ext: 'aar')
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
 
