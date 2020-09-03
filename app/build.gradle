@@ -6,8 +6,8 @@ android {
         applicationId "com.appynitty.sba_deoli"
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 24
-        versionName "12.1"
+        versionCode 25
+        versionName "12.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
