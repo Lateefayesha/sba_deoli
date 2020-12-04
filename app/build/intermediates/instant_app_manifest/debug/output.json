@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.appynitty.sba_deoli",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 25,
+        "versionName": "12.2",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.appynitty.sba_deoli",
+        "split": "",
+        "minSdkVersion": "23"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_card_height">250dp</dimen>
+    <dimen name="login_margin">30dp</dimen>
+    <dimen name="logo_img_height">180dp</dimen>
+</resources>

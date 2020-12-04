@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ayesha/BACKUP_OLD_DRIVE/Ayan/AppyNittyProjects/swachhBharat/sba_deoli/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/70a494801a9fae759d6472695735d613/jetified-swachbharatabhiyanlibrary-release/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,149",
+                        "endColumns": "49,43,47",
+                        "endOffsets": "100,144,192"
+                    }
+                },
+                {
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/fc24e5a6645c5abd52cc82d84fe0c4d2/jetified-core-1.9.8/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "197,255",
+                        "endColumns": "57,55",
+                        "endOffsets": "250,306"
+                    }
+                },
+                {
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/4458c9c05cd1e45f3462845bbb5f6a7c/appcompat-1.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "311",
+                        "endLines": "11",
+                        "endColumns": "13",
+                        "endOffsets": "583"
+                    }
+                }
+            ]
+        }
+    ]
+}

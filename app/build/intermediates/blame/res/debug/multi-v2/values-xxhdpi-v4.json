@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ayesha/BACKUP_OLD_DRIVE/Ayan/AppyNittyProjects/swachhBharat/sba_deoli/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/fc24e5a6645c5abd52cc82d84fe0c4d2/jetified-core-1.9.8/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "197,256",
+                        "endColumns": "58,55",
+                        "endOffsets": "251,307"
+                    }
+                },
+                {
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/70a494801a9fae759d6472695735d613/jetified-swachbharatabhiyanlibrary-release/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,149",
+                        "endColumns": "49,43,47",
+                        "endOffsets": "100,144,192"
+                    }
+                }
+            ]
+        }
+    ]
+}
