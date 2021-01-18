@@ -9,6 +9,7 @@ import com.pixplicity.easyprefs.library.Prefs;
 import leakcanary.LeakCanary;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Prefs.putString(AUtils.APP_ID, "1");
         Prefs.putInt(AUtils.VERSION_CODE, BuildConfig.VERSION_CODE);
         startActivity(new Intent(MainActivity.this, SplashScreenActivity.class));
-
     }
+
 
         private void createLeakConfig() {
         LeakCanary.Config config = LeakCanary.getConfig().newBuilder()
@@ -31,10 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         LeakCanary.setConfig(config);
 
-
     }
-
-
 
     @Override
     protected void onPause() {
