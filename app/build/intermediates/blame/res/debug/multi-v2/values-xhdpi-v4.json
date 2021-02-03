@@ -4,7 +4,17 @@
             "outputFile": "/home/ayesha/BACKUP_OLD_DRIVE/Ayan/AppyNittyProjects/swachhBharat/sba_deoli/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/fc24e5a6645c5abd52cc82d84fe0c4d2/jetified-core-1.9.8/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/ab501e21139a6bae3485ae1efe682abb/jetified-swachbharatabhiyanlibrary-release/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,149",
+                        "endColumns": "49,43,47",
+                        "endOffsets": "100,144,192"
+                    }
+                },
+                {
+                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/e6dab2e6affa3187c84a36f56f1bdc06/jetified-core-1.9.8/res/values-xhdpi-v4/values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "197,255",
                         "endColumns": "57,55",
                         "endOffsets": "250,306"
-                    }
-                },
-                {
-                    "source": "/home/ayesha/.gradle/caches/transforms-2/files-2.1/70a494801a9fae759d6472695735d613/jetified-swachbharatabhiyanlibrary-release/res/values-xhdpi-v4/values-xhdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,105,149",
-                        "endColumns": "49,43,47",
-                        "endOffsets": "100,144,192"
                     }
                 }
             ]

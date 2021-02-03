@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.appynitty.sba_deoli"
-    android:versionCode="25"
-    android:versionName="12.2" >
+    android:versionCode="26"
+    android:versionName="12.3" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -20,7 +20,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <uses-feature
@@ -46,7 +48,6 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.appynitty.sba_deoli.MainActivity" >
             <intent-filter>
@@ -162,7 +163,8 @@
 
         <service
             android:name="com.appynitty.swachbharatabhiyanlibrary.services.ForgroundService"
-            android:enabled="true" />
+            android:enabled="true"
+            android:foregroundServiceType="location" />
         <service
             android:name="com.appynitty.swachbharatabhiyanlibrary.services.NetworkSchedulerService"
             android:exported="true"
